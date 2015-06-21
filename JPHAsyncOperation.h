@@ -3,7 +3,7 @@
 //  JPHAsyncOperation
 //
 //  Created by Pierre Houston on 2015-06-19.
-//  Copyright © 2015 Room 1337 Ventures. All rights reserved.
+//  Copyright © 2015 Pierre Houston. All rights reserved.
 //
 
 @import Foundation;
