@@ -26,6 +26,10 @@
 //
 - (void)addAyncOperationWithBlock:(JPHAsyncOperationBlock)block;
 
+- (void)addAyncOperationNamed:(NSString *)named withBlock:(JPHAsyncOperationBlock)block;
+
 - (void)addAyncOperationWithDependancies:(NSArray *)dependencies block:(JPHAsyncOperationBlock)block;
+
+- (void)addAyncOperationNamed:(NSString *)name withDependancies:(NSArray *)dependencies block:(JPHAsyncOperationBlock)block;
 
 @end
