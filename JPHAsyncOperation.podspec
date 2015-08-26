@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'JPHAsyncOperation'
-  s.version  = '1.0'
+  s.version  = '1.0.1'
   s.license  = 'MIT'
   s.summary  = 'An NSOperation subclass and NSOperationQueue category for easy async block operations.'
   s.authors  = { 'Pierre Houston' => 'jpmhouston@gmail.com' }
