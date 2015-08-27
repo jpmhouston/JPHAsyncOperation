@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.source_files = 'JPHAsyncOperation.h', 'JPHAsyncOperation.m', 'NSOperationQueue+JPHAsync.h', 'NSOperationQueue+JPHAsync.m'
   s.frameworks = 'Foundation'
   s.requires_arc = true
-  s.platform = :ios, '7.0'
-  s.platform = :osx, '10.8'
+  s.platform = :ios, :osx # don't know if this syntax works, used to get this by omitting platform altogether
+  s.ios.deployment_target = '7.0'
+  s.osx.deployment_target = '10.8'
 end
